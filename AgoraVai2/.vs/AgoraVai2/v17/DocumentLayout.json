@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\viewmodel\\indicadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|solutionrelative:viewmodel\\indicadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\viewmodel\\logarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|solutionrelative:viewmodel\\logarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\viewmodel\\indicadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|solutionrelative:viewmodel\\indicadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E74FF3E7-C53F-4BFD-BFE4-2718BD2CAA25}|AgoraVai2.csproj|c:\\users\\mathe\\source\\repos\\projeto_prosperus\\agoravai2\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,80 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IndicadoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\ViewModel\\IndicadoViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\IndicadoViewModel.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\ViewModel\\IndicadoViewModel.cs",
-              "RelativeToolTip": "ViewModel\\IndicadoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "LogarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\ViewModel\\LogarViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LogarViewModel.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\ViewModel\\LogarViewModel.cs",
+              "RelativeToolTip": "ViewModel\\LogarViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T16:13:41.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T16:13:41.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADEAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-28T16:13:41.251Z",
+              "WhenOpened": "2024-02-28T18:38:02.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Startup.cs",
-              "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Startup.cs",
-              "RelativeToolTip": "Startup.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwD8AAAAdAAAA",
+              "Title": "IndicadoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\ViewModel\\IndicadoViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\IndicadoViewModel.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\ViewModel\\IndicadoViewModel.cs",
+              "RelativeToolTip": "ViewModel\\IndicadoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T16:13:41.257Z"
+              "WhenOpened": "2024-02-28T18:37:36.188Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "ViewState": "AQIAACABAAAAAAAAAAAAwEUBAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-02-28T16:13:41.263Z"
+              "WhenOpened": "2024-02-28T18:06:22.364Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAE0AAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-28T16:13:41.267Z"
+              "WhenOpened": "2024-02-28T17:54:22.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T17:09:37.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:06:23.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:06:20.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\Projeto_Prosperus\\AgoraVai2\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:05:32.239Z",
+              "EditorCaption": ""
             }
           ]
         }
