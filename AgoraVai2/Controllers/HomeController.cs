@@ -22,6 +22,7 @@ namespace AgoraVai2.Controllers
 
         public IActionResult Index()
         {
+
             return View("Index");
         }
 
@@ -30,20 +31,41 @@ namespace AgoraVai2.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Create(IndicadoViewModel model)
+        public PartialViewResult ViewAddTelefone(string qtdIndicados)
         {
-            Indicado indicado = new Indicado
+            @ViewBag.c = qtdIndicados;
+            return PartialView("../Home/_IndicadoPartial");
+        }
+
+        [HttpPost]
+        public IActionResult Create(IndicadorViewModel model)
+        {
+
+            List<Indicado> indicados = new List<Indicado>();
+
+            foreach (var item in model.indicadoList)
             {
-                nome = model.nome,
-                numeroTelefone = Convert.ToInt64(model.numeroTelefone),
-                observacoes = model.observacoes,
+                Indicado indicado = new Indicado
+                {
+                    nome = item.nome,
+                    numeroTelefone = Convert.ToInt64(item.numeroTelefone),
+                    observacoes = item.observacoes,
+                    telefoneIndicador = Convert.ToInt64(model.telefoneIndicador)
+                };
+
+                indicados.Add(indicado);
+            }
+
+            Indicador indicador = new Indicador
+            {
                 nomeIndicador = model.nomeIndicador,
                 telefoneIndicador = Convert.ToInt64(model.telefoneIndicador),
+                indicadoList = indicados
             };
 
+
             NegIndicado negIndicado = new NegIndicado(_settings);
-            negIndicado.Create(indicado);
+            negIndicado.Create(indicador);
             return RedirectToAction("Index", "Home");
         }
     }

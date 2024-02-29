@@ -11,16 +11,16 @@ namespace Negocio.Cadastro
 {
     public class NegIndicado
     {
-        private readonly IMongoCollection<Indicado> _settings;
+        private readonly IMongoCollection<Indicador> _settings;
 
         public NegIndicado(IIndicadoDbSettings settings)
         {
             var client = new MongoClient(settings.ConnectionString);
             var database = client.GetDatabase(settings.DatabaseName);
 
-            _settings = database.GetCollection<Indicado>(settings.BooksCollectionName);
+            _settings = database.GetCollection<Indicador>(settings.BooksCollectionName);
         }
-        public Indicado Create(Indicado indicado)
+        public Indicador Create(Indicador indicado)
         {
             _settings.InsertOne(indicado);
             return indicado;

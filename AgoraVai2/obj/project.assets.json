@@ -816,19 +816,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leona\\.nuget\\packages\\": {}
+    "C:\\Users\\mathe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leona\\Source\\Repos\\Projeto_Prosperus\\AgoraVai2\\AgoraVai2.csproj",
+      "projectUniqueName": "C:\\Users\\mathe\\Source\\Repos\\Projeto_Prosperus\\AgoraVai2\\AgoraVai2.csproj",
       "projectName": "AgoraVai2",
-      "projectPath": "C:\\Users\\leona\\Source\\Repos\\Projeto_Prosperus\\AgoraVai2\\AgoraVai2.csproj",
-      "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leona\\Source\\Repos\\Projeto_Prosperus\\AgoraVai2\\obj\\",
+      "projectPath": "C:\\Users\\mathe\\Source\\Repos\\Projeto_Prosperus\\AgoraVai2\\AgoraVai2.csproj",
+      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mathe\\Source\\Repos\\Projeto_Prosperus\\AgoraVai2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -842,8 +842,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\leona\\Source\\Repos\\Projeto_Prosperus\\Negocio\\Negocio.csproj": {
-              "projectPath": "C:\\Users\\leona\\Source\\Repos\\Projeto_Prosperus\\Negocio\\Negocio.csproj"
+            "C:\\Users\\mathe\\Source\\Repos\\Projeto_Prosperus\\Negocio\\Negocio.csproj": {
+              "projectPath": "C:\\Users\\mathe\\Source\\Repos\\Projeto_Prosperus\\Negocio\\Negocio.csproj"
             }
           }
         }
@@ -852,6 +852,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -876,7 +881,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leona\\Source\\Repos\\Projeto_Prosperus\\Entidade\\Entidade.csproj": {}
+    "C:\\Users\\mathe\\Source\\Repos\\Projeto_Prosperus\\Entidade\\Entidade.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leona\\Source\\Repos\\Projeto_Prosperus\\Entidade\\Entidade.csproj": {
+    "C:\\Users\\mathe\\Source\\Repos\\Projeto_Prosperus\\Entidade\\Entidade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona\\Source\\Repos\\Projeto_Prosperus\\Entidade\\Entidade.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\Source\\Repos\\Projeto_Prosperus\\Entidade\\Entidade.csproj",
         "projectName": "Entidade",
-        "projectPath": "C:\\Users\\leona\\Source\\Repos\\Projeto_Prosperus\\Entidade\\Entidade.csproj",
-        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona\\Source\\Repos\\Projeto_Prosperus\\Entidade\\obj\\",
+        "projectPath": "C:\\Users\\mathe\\Source\\Repos\\Projeto_Prosperus\\Entidade\\Entidade.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathe\\Source\\Repos\\Projeto_Prosperus\\Entidade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

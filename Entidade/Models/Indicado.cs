@@ -12,12 +12,6 @@ namespace Entidade.Models
 {
     public class Indicado
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        [ReadOnly(true)]
-        [DefaultValue(null)]
-        public string Id { get; set; }
-
         [Required]
         [DefaultValue(null)]
         public string nome { get; set; }
@@ -32,10 +26,28 @@ namespace Entidade.Models
 
         [Required]
         [DefaultValue(null)]
-        public string nomeIndicador { get; set;}
+        public long telefoneIndicador { get; set; }
+    }
+
+    public class Indicador
+    {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        [ReadOnly(true)]
+        [DefaultValue(null)]
+        public string Id { get; set; }
 
         [Required]
         [DefaultValue(null)]
-        public long telefoneIndicador { get; set;}
+        public string nomeIndicador { get; set; }
+
+        [Required]
+        [DefaultValue(null)]
+        public long telefoneIndicador { get; set; }
+
+        [Required]
+        [DefaultValue(null)]
+        public List<Indicado> indicadoList { get; set; }
     }
+
 }
