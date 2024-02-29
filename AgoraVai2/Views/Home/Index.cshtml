@@ -1,4 +1,7 @@
-﻿<form id="myform" action="Home/Create" method="post">
+﻿@model AgoraVai2.ViewModel.IndicadorViewModel
+
+@using (Html.BeginForm("Create", "Home", FormMethod.Post))
+{
     <div class="section">
         <div class="container">
             <div class="row  justify-content-center">
@@ -20,6 +23,15 @@
                                                     <input type="text" id="telefoneIndicador" class="form-style" name="telefoneIndicador" placeholder="Telefone Do Indicador (com DDD)" required disabled>
                                                     <i class="input-icon uil uil-at"></i>
                                                 </div>
+
+                                                <div class="form-group mt-2">
+                                                    <input type="text" id="qtdIndicados" class="form-style" name="qtdIndicados" placeholder="Quantidade de indicados" required>
+                                                    <i class="input-icon uil uil-at"></i>
+                                                </div>
+                                                <div class="botao">
+                                                    <a onclick="addTelefone()" type="button" class="btn mt-4" id="adicionar">Adicionar +</a>
+                                                </div>
+
                                             </fieldset>
                                         </div>
                                     </div>
@@ -32,48 +44,14 @@
         </div>
     </div>
 
-    <div class="section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 text-center align-self-center">
-                    <div class="section text-center">
-                        <div class="card-3d-wrap mx-auto">
-                            <div class="card-3d-wrapper">
-                                <div class="card-front">
-                                    <div class="center-wrap">
-                                        <div class="section text-center">
-                                            <h4 class="mb-4 pb-3">Indicado</h4>
-                                            <fieldset>
-                                                <div class="form-group">
-                                                    <input type="text" id="nome" name="nome" class="form-style" placeholder="Nome Completo Do Indicado" required disabled>
-                                                    <i class="input-icon uil uil-at"></i>
-                                                </div>
-                                                <div class="form-group mt-2">
-                                                    <input type="tel" id="numeroTelefone" class="form-style" name="numeroTelefone" placeholder="Telefone Do Indicado (com DDD)" required disabled>
-                                                    <i class="input-icon uil uil-at"></i>
-                                                </div>
-                                                <div class="form-group mt-2">
-                                                    <input id="observacoes" name="observacoes" class="form-style" rows="4" placeholder="Observações" required disabled>
-                                                    <i class="input-icon uil uil-at"></i>
-                                                </div>
-                                            </fieldset>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div id="partialIndicado">
     </div>
+
     <div class="section">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 text-center align-self-center">
-                    <div class="botao">
-                        <button disabled type="button" class="btn mt-4" id="adicionar">Adicionar +</button>
-                    </div>
+
                     <div class="botao">
                         <button disabled type="submit" class="btn mt-4" id="enviarBotao">Enviar</button>
                     </div>
@@ -81,7 +59,7 @@
             </div>
         </div>
     </div>
-</form>
+}
 
 
 <script>
@@ -91,10 +69,27 @@
 
         document.getElementById("nomeIndicador").removeAttribute("disabled");
         document.getElementById("telefoneIndicador").removeAttribute("disabled");
-        document.getElementById("nome").removeAttribute("disabled");
-        document.getElementById("numeroTelefone").removeAttribute("disabled");
-        document.getElementById("observacoes").removeAttribute("disabled");
 
         document.getElementById("enviarBotao").removeAttribute("disabled");
+    }
+
+</script>
+
+<script>
+
+    function addTelefone() {
+
+        var qtdIndicados = document.getElementById("qtdIndicados").value;
+
+        $.ajax({
+            type: 'GET',
+            url: '@Url.Action("ViewAddTelefone", "Home")',
+            data: { "qtdIndicados": qtdIndicados },
+            success: function (result) {
+                console.log(result);
+                var teste = document.getElementById("partialIndicado");
+                teste.innerHTML = result;
+            }
+        })
     }
 </script>

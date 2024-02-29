@@ -11,8 +11,15 @@ namespace AgoraVai2.ViewModel
 
         public string observacoes { get; set; }
 
+    }
+    public class IndicadorViewModel
+    {
         public string nomeIndicador { get; set; }
 
         public string telefoneIndicador { get; set; }
+
+
+        public List<IndicadoViewModel> indicadoList { get; set; }
     }
+
 }
