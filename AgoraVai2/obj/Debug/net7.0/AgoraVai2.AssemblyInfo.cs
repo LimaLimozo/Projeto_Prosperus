@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgoraVai2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21938ae523fac084e140d5843ea491d86244d98b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ee5fe28a45edcbede0712a90897cafeda2e261a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgoraVai2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgoraVai2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

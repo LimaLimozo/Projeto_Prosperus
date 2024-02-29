@@ -32,7 +32,7 @@ namespace AgoraVai2.Controllers
             }
 
 
-            return View("Login");
+            return RedirectToAction("Login", "Login");
         }
 
         public IActionResult Privacy()
